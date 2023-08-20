@@ -6,6 +6,7 @@ LABEL maintainer="Luiz Eduardo Oliveira Fonseca <luiz@powertic.com>"
 
 # Install PHP extensions
 RUN apt-get update && apt-get install --no-install-recommends -y \
+    apt-transport-https \
     ca-certificates \
     build-essential  \
     software-properties-common \
